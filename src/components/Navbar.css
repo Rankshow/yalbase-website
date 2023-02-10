@@ -1,0 +1,18 @@
+.NavHead {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding: 2rem;
+}
+.IconNav {
+    color: #fff;
+}
+.btnNav {
+  padding: 0.9rem;
+  font-size: 0.9rem;
+  border-radius: 50px;
+  background: rgb(20,12,87);
+  color: #fff;
+  border: 1px solid rgba(255,89,123,0.5);
+}
