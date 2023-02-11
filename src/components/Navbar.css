@@ -12,7 +12,14 @@
   padding: 0.9rem;
   font-size: 0.9rem;
   border-radius: 50px;
-  background: rgb(20,12,87);
+  background: #140c57;
   color: #fff;
   border: 1px solid rgba(255,89,123,0.5);
 }
+.btnNav:hover {
+  background-color:#040122;
+}
+.IconNav span {
+  color:rgb(89,32,73);
+}
+

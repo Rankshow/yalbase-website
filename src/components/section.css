@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+}
+section {
+    color: #fff;
+}
+.mainsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainsection h1, h2 {
+   font-size: 40px;
+}
+.mainsection h2{
+    text-align: center;
+}
+.childSection {
+    justify-content: center;
+}
