@@ -9,12 +9,60 @@ section {
     flex-direction: column;
     align-items: center;
 }
-.mainsection h1, h2 {
-   font-size: 40px;
-}
-.mainsection h2{
-    text-align: center;
-}
 .childSection {
     justify-content: center;
+}
+/*  */
+.formHead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.email,.name,.btnSubmit {
+    padding: 10px;
+}
+input, button {
+    width: 300px;
+    height: 50px;
+}
+input {
+    border-radius: 10px;
+}
+button {
+    border-radius: 50px;
+}
+.ellipse39 {
+    /* Ellipse 39 (1) */
+    display: flex;
+    justify-items: center;
+    position: relative;
+    width: 102px;
+    height: 102px;
+    left: 1025px;
+    top: 126px;
+}
+/* Turn your best customers into Loyal fans */
+.mainsection h2 {
+position: absolute;
+width: 802px;
+height: 166px;
+left: 319px;
+top: 248px;
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 130%;
+/* or 83px */
+}
+span {
+    color: #A75FD2;
+}
+h1 {
+    font-family: Satoshi;
+    font-style: normal;
+    font-size: 64px;
+    text-align: center;
+    color: #FFFFFF;
 }

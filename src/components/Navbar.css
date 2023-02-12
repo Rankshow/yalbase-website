@@ -6,20 +6,52 @@
     padding: 2rem;
 }
 .IconNav {
-    color: #fff;
+    color: #ffffff;
 }
-.btnNav {
+.Heart{
+  position: relative;
+  left: 0.33%;
+  right: 9.33%;
+  top: 9.93%;
+  bottom: 12.91%;
+}
+.heartsymbol{
+  position: relative;
+  left: -12.56%;
+  right: -13.5%;
+  top: -16.22%;
+  bottom: 32.72%;
+  color: #ffffff;
+
+}
+.archive {
+  position: relative;
+  left: 13.55%;
+  right: 11.5%;
+  top: -11%;
+  bottom: 32.72%;
+  color: #ffffff;
+  /* overflow: visible; */
+}
+.NavBtn {
   padding: 0.9rem;
-  font-size: 0.9rem;
+  float: satoshi;
   border-radius: 50px;
-  background: #140c57;
-  color: #fff;
-  border: 1px solid rgba(255,89,123,0.5);
+  background: #121b27;
+  color: #ffffff;
+  border-right: 1px solid #a632cf; 
+  border-left: 1px solid #4c06e3; 
+  border-top: 1px solid #6A10F2; 
+  border-bottom: 1px solid #ae36cb; 
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
 }
-.btnNav:hover {
-  background-color:#040122;
+.NavBtn:hover {
+  background-color:#66597a;
 }
 .IconNav span {
-  color:rgb(89,32,73);
+  color: linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 88.1%);
+
 }
 
