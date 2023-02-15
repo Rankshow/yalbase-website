@@ -1,34 +1,52 @@
 import React from "react";
 import './section.css';
-import Ellipse from '../components/images/Ellipse 39 (1).png';
+import Ellipse39 from '../components/images/Ellipse 39 (1).png';
+import Ellipse37 from '../components/images/Ellipse 37.png';
+import StarTwo from '../components/images/Star 2.png';
+import StarThree from '../components/images/Star 3.png';
+import {UserOutlined} from '@ant-design/icons'
+import {MailOutlined} from '@ant-design/icons'
 
 const Section = () => {
   return (
+    <>
     <section>
-       <div className="ellipse">
-        <img  src={Ellipse} alt="Ellipse 39" />
+       <div className="ellipse39">
+        <img  src={Ellipse39} alt="Ellipse 39" />
         </div>
-      <div className="mainsection">
-         <div className="subSection">
-           <h1>Turn your best customers <br />
-          into <span>Loyal fans</span></h1>
+      <div className="starOne">
+        <img src={StarTwo} alt="star one" />
+      </div>
+
+         {/* main header */}
+        <div className="mainsection">
+          <div className="ellipse37">
+            <img src={Ellipse37} alt="Ellipse 37" />
+              </div>
+            <div className="SectionHeader">
+              <h1>Turn your best customers <br />
+              into <span>Loyal fans</span></h1>
+            </div>
+              <div className="StarThree">
+                <img src={StarThree} alt="star" />
+              </div>
         </div>
         <div className="mainText">
         <p>
-          Loyalbaze, empowers businesses to offers digital, mobile-first loyalty
-          programs to their customers. With our AI powered platform, you can
-          easily create and manage custom loyalty and rewards programs, track
-          customer engagement, and gain valuable insight to improve your business. Sign up now to get early access.
+        Loyalbaze, empowers businesses to offer digital, mobile-first loyalty programs to their customers. With our AI Powered platform, you can easily create and manage custom loyalty and rewards programs, track customer engagement, and gain valuable insights to improve your business. Sign up now to get early access.
         </p>
-        </div>
       </div>
+
+      {/* form */}
       <div className="formHead">
-        <form>
+        <form classformHeader>
           <div className="name">
-          <input type="text" placeholder='Tell us your name' />
+             <UserOutlined />
+              <input type="text" placeholder='Tell us your name' />
           </div>
           <div className="email">
-          <input type="text" placeholder='Enter your email address' />
+            <MailOutlined />
+              <input type="text" placeholder='Enter your email address' />
           </div>
            <div className="btnSubmit">
           <button>
@@ -39,6 +57,7 @@ const Section = () => {
         </form>
       </div>
     </section>
+  </>
   );
 };
 

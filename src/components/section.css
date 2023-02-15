@@ -4,14 +4,12 @@
 section {
     color: #fff;
 }
-.mainsection {
+/* .mainsection {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.childSection {
-    justify-content: center;
-}
+} */
+
 /*  */
 .formHead {
     display: flex;
@@ -35,34 +33,62 @@ button {
 .ellipse39 {
     /* Ellipse 39 (1) */
     display: flex;
-    justify-items: center;
+    justify-content: right;
+    
+}
+.starOne {
     position: relative;
-    width: 102px;
-    height: 102px;
-    left: 1025px;
-    top: 126px;
+    top: -30%;
+    bottom: -19%;
+    right: -20.30%;
+}
+.mainsection {
+    display: flex;
+    justify-content: space-between;
+}
+.SectionHeader h1{
+    text-align: center;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+}
+.ellipse37 {
+    position: relative;
+    width: 32px;
+    height: 40px;
+    right: -130px;
+    top: 30px;
+}
+.SectionHeader span{
+    color: #A75FD2;
+}
+/* Star 3 */
+.StarThree{
+position: relative;
+width: 32px;
+height: 40px;
+left: -230px;
+top: 130px;
 }
 /* Turn your best customers into Loyal fans */
-.mainsection h2 {
+/* .mainsection h2 {
 position: absolute;
 width: 802px;
 height: 166px;
 left: 319px;
 top: 248px;
 font-family: 'Satoshi';
-font-style: normal;
-font-weight: 900;
-font-size: 64px;
 line-height: 130%;
 /* or 83px */
-}
-span {
+/* } 
+ span {
     color: #A75FD2;
-}
-h1 {
+}  */
+/* h1 {
     font-family: Satoshi;
     font-style: normal;
     font-size: 64px;
     text-align: center;
     color: #FFFFFF;
-}
+} */
