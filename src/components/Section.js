@@ -4,7 +4,8 @@ import Ellipse39 from '../components/images/Ellipse 39 (1).png';
 import Ellipse37 from '../components/images/Ellipse 37.png';
 import StarTwo from '../components/images/Star 2.png';
 import StarThree from '../components/images/Star 3.png';
-import {UserOutlined} from '@ant-design/icons'
+import UserOutline from '../components/images/Vector@2x.png';
+import UserCircle from '../components/images/VectorName.png';
 import {MailOutlined} from '@ant-design/icons'
 
 const Section = () => {
@@ -41,15 +42,17 @@ const Section = () => {
       <div className="formHead">
         <form classformHeader>
           <div className="name">
-             <UserOutlined />
+             {/* <UserOutlined /> */}
+             <img className="UserOutline" src={UserOutline} alt="User imgage" />
+             <img className="UserCircle" src={UserCircle} alt="User imgage" />
               <input type="text" placeholder='Tell us your name' />
           </div>
           <div className="email">
-            <MailOutlined />
+            <MailOutlined className="emailIcon" />
               <input type="text" placeholder='Enter your email address' />
           </div>
            <div className="btnSubmit">
-          <button>
+          <button className="submit">
             Get early access
           </button>
           </div>

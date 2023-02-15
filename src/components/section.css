@@ -4,13 +4,6 @@
 section {
     color: #fff;
 }
-/* .mainsection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
-
-/*  */
 .formHead {
     display: flex;
     flex-direction: column;
@@ -20,15 +13,27 @@ section {
 .email,.name,.btnSubmit {
     padding: 10px;
 }
-input, button {
+input {
     width: 300px;
     height: 50px;
+    display: grid;
+    place-items: center;
 }
 input {
     border-radius: 10px;
+    background: rgb(18,27,39);
+    border: 2px solid #ffffff
+
 }
 button {
     border-radius: 50px;
+}
+.submit {
+    width: 300px;
+    height: 50px;
+    background: linear-gradient(112.92deg, #5404FF 18.35%, rgba(189, 59, 210, 0.94) 71.49%);
+
+
 }
 .ellipse39 {
     /* Ellipse 39 (1) */
@@ -48,7 +53,6 @@ button {
 }
 .SectionHeader h1{
     text-align: center;
-    font-family: 'Satoshi';
     font-style: normal;
     font-weight: 900;
     font-size: 64px;
@@ -65,30 +69,50 @@ button {
 }
 /* Star 3 */
 .StarThree{
-position: relative;
-width: 32px;
-height: 40px;
-left: -230px;
-top: 130px;
+    position: relative;
+    width: 32px;
+    height: 40px;
+    left: -230px;
+    top: 130px;
 }
-/* Turn your best customers into Loyal fans */
-/* .mainsection h2 {
-position: absolute;
-width: 802px;
-height: 166px;
-left: 319px;
-top: 248px;
-font-family: 'Satoshi';
-line-height: 130%;
-/* or 83px */
-/* } 
- span {
-    color: #A75FD2;
-}  */
-/* h1 {
-    font-family: Satoshi;
-    font-style: normal;
-    font-size: 64px;
-    text-align: center;
-    color: #FFFFFF;
-} */
+/* icon */
+.emailIcon {
+    position: relative;
+    left: 4.33%; 
+    right: 8.33%;
+    top: 2.1rem;
+     bottom: 8.33%;
+   
+}
+input[type='text'] {
+    color: orange;
+    /* padding-left: 30px !important; */
+}
+/* placeholder */
+::placeholder {
+    font-family: 'Satoshi';
+    color: #ffffff;
+    margin-left: -20px;
+    padding: 35px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+/* UserCircle */
+.UserCircle {
+    position: relative;
+    left: -1.99%;
+    padding-right: 5px;
+    right: -8.33%;
+    top: 2.53rem;
+    bottom: 8.33%;
+}
+.UserOutline {
+    position: relative;
+    left: 3.50%;
+    right: 8.33%;
+    top: 2.5rem;
+    bottom: 8.33%;
+    width: 13.48px;
+    height: 15.77px;
+}
