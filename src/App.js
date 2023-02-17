@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import Section from './components/Section';
+import FooterSection from './components/FooterSection';
 import './App.css';
 
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Section />
+      <FooterSection />
     </div>
   );
 }

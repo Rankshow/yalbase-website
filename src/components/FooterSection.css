@@ -1,0 +1,78 @@
+.main{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+}
+.ellipseSect {
+    position: absolute;
+    width: 102px;
+    height: 102px;
+    left: 138px;
+    /* top: -101px; */
+    top: 140%;
+}
+.ellipseSect2 {
+    position: absolute;
+    width: 32px;
+    height: 40px;
+    left: 415px;
+    top: 160%;
+}
+.ellipseSect3 {
+    position: absolute;
+    width: 18.25px;
+    height: 19px;
+    left: 80%;
+    top: 145%;
+}
+.ellipseSect4 {
+    position: absolute;
+    width: 18.25px;
+    height: 19px;
+    left: 50%;
+    top: 145%;
+}
+.secondForm {
+    background-color: #121b27;
+    border-radius: 20px;
+    width: 633px;
+    height: 837px;
+    left: 707px;
+    top: 178px;
+}
+.formSect {
+    background-color: rgba(29, 41, 57, 1);
+    width: 500px;
+    height: 700px;
+    border-radius: 20px;
+    left: 707px;
+    top: 178px;
+}
+.ZigZag {
+    width: 200px;
+}
+/* Book a Consultation with us */
+h2 {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.24px;
+    color: #ffffff;
+    justify-content: center;
+}
+/* MAIN */
+.mainSect {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding-top: 20rem;
+    gap: 10px;
+}
+/* content */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-self: center;
+}
