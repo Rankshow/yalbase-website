@@ -48,8 +48,23 @@
     left: 707px;
     top: 178px;
 }
-.ZigZag {
+/* Priority Access */
+h3 {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130%;
+}
+.content h3{
+    justify-content: content;
+    text-align: center;
+    color: #ffffff;
+}
+.content img {
     width: 200px;
+    display: flex;
+    align-self: center;
 }
 /* Book a Consultation with us */
 h2 {
@@ -60,6 +75,7 @@ h2 {
     line-height: 31.24px;
     color: #ffffff;
     justify-content: center;
+    text-align: center;
 }
 /* MAIN */
 .mainSect {
@@ -74,5 +90,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-content: center;
-    align-self: center;
+}
+.content p{
+    color: #ffffff;
 }

@@ -28,7 +28,7 @@ function FooterSection() {
       <div className='mainSect'>
         <div className='content'>
           <h3>Priority Access</h3>
-           <img className='ZigZag' src={ZigZag} alt="ZigZag" />
+           <img src={ZigZag} alt="ZigZag" />
           <p>Get ready to revolutionize the way you interact with your customers and drive sales with Loyalbaze. Skip the waitlist and get exclusive priority access to LoyalBaze. Limited slots available. Please tell us a bit about your business and needs and of our consultants will be in touch Immediately!</p>
         </div>
 
