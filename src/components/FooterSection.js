@@ -35,29 +35,43 @@ function FooterSection() {
         <div className='secondForm'>
           <Form className='formSect'>
             <h2>Book a Consultation with us</h2>
-             <Form.Group className="mb-3" controlId="formBasicName">
-              <Form.Control type="email" placeholder="Enter your full name" />
+             <Form.Group className="mb-3 formGroup" controlId="formBasicName">
+              <Form.Control type="name" placeholder="Enter your full name" />
                 </Form.Group>
-                   <Form.Group className="mb-3" controlId="formBasicName">
-                      <Form.Control type="email" placeholder="Enter your full name" />
+
+                   <Form.Group  className="mb-3 formGroup" controlId="formBasicName">
+                      <Form.Control type="email" placeholder="Enter your work email" />
                         </Form.Group>
-                         <Form.Group className="mb-3" controlId="formBasicName">
-                        <Form.Control type="email" placeholder="Enter your full name" />
+
+                         <Form.Group className="mb-3 formGroup" controlId="formBasicName">
+                        <Form.Control type="text" placeholder="Mobile Number" />
                        </Form.Group>
-                     <Form.Group className="mb-3" controlId="formBasicName">
-                  <Form.Control type="email" placeholder="Enter your full name" />
+
+                     <Form.Group className="mb-3 formGroup" controlId="formBasicName">
+                  <Form.Control type="text" placeholder="Company Name" />
                  </Form.Group>
-                 <Form.Select aria-label="Default select example">
-                  <option>Open this select menu</option>
+
+                 <Form.Select style={{padding: '16px', borderRadius: '8px', width: '298px',backgroundColor: 'rgba(29, 41, 57, 1)',border: '1px solid rgba(221, 221, 221, 0.5)', color: '#ffffff', fontFamily: 'Satoshi', fontWeight: '400', fontSize: '16px', lineHeight: '130%'}}  aria-label="Select counrty">
+                  <option>Select Country</option>
                     <option value="1">One</option>
                        <option value="2">Two</option>
                       <option value="3">Three</option>
                     </Form.Select>
+
+                    <Form.Group className="mb-3 formGroup" controlId="exampleForm.ControlTextarea1">
+                        <Form.Control className='formTextArea'  as="textarea" rows={9} />
+                      </Form.Group>
+                      <button className='formbtn'>
+                        Get early Access
+                      </button>
                  </Form>
-             </div>
-         </div>
-       </main>
-    </>
+                 <div className='ellipse1'>
+            <img src={StarTwo} alt="star" />
+          </div>
+        </div>
+      </div>
+    </main>
+  </>
   )
 }
 

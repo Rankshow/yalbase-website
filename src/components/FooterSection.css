@@ -8,7 +8,6 @@
     width: 102px;
     height: 102px;
     left: 138px;
-    /* top: -101px; */
     top: 140%;
 }
 .ellipseSect2 {
@@ -16,7 +15,7 @@
     width: 32px;
     height: 40px;
     left: 415px;
-    top: 160%;
+    top: 150%;
 }
 .ellipseSect3 {
     position: absolute;
@@ -40,10 +39,15 @@
     left: 707px;
     top: 178px;
 }
+/* form */
 .formSect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(29, 41, 57, 1);
     width: 500px;
-    height: 700px;
+    height: 837px;
     border-radius: 20px;
     left: 707px;
     top: 178px;
@@ -56,10 +60,22 @@ h3 {
     font-size: 64px;
     line-height: 130%;
 }
+/* select */
+/* .selectOption {
+    padding: '16px'!important;
+    border-radius: 8px;
+    width: '298px';
+    
+} */
 .content h3{
     justify-content: content;
     text-align: center;
     color: #ffffff;
+}
+.content p{
+text-align: center;
+
+
 }
 .content img {
     width: 200px;
@@ -75,7 +91,7 @@ h2 {
     line-height: 31.24px;
     color: #ffffff;
     justify-content: center;
-    text-align: center;
+    
 }
 /* MAIN */
 .mainSect {
@@ -93,4 +109,47 @@ h2 {
 }
 .content p{
     color: #ffffff;
+}
+.ellipse1 {
+    position: absolute;
+    width: 48px;
+    height: 64px;
+    right: 560px;
+    top: 1700px;
+}
+.formGroup {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px;
+    gap: 10px;
+}
+/* select */
+#formBasicName {
+    border-radius: '8px';
+    width: '298px';
+    background-color: rgba(29, 41, 57, 1);
+    border: 1px solid rgba(221, 221, 221, 0.5);
+}
+/* textarea */
+.formTextArea {
+    background-color: rgba(29, 41, 57, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 262px;
+    height: 128px;
+    padding: 16px;
+    /* gap: 10px; */
+    border: 1px solid rgba(221, 221, 221, 0.5);
+    border-radius: 8px; 
+}
+/* form button */
+.formbtn {
+    background: linear-gradient(112.92deg, #5404FF 18.35%, rgba(189, 59, 210, 0.94) 71.49%);
+    border-radius: 100px;
+    width: 300px;
+    height: 50px;
+    border: none;
 }

@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    color: #ffffff;
+    font-family: 'Satoshi';
+    font-style: normal;
+
+}
+/* Star 6 */
+.ellipseSix {
+    display: flex;
+    justify-self: flex-end;
+}
+.ellipseSix img {
+  padding-left: 90%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.address {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.address p {
+    width: 287px;
+    height: 44px;
+    margin-left: 32px;
+}
