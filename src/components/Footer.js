@@ -13,7 +13,8 @@ const Footer = () => {
            <hr />
           <div className='footer'>
             <div className='address'>
-              <img src={Home} alt="home icon" /><p>2nd Floor, The Garnet Building, KM14 <br/> Lekki Epe Expressway, Lagos, Nigeria.</p>
+              <img src={Home} alt="home icon" />
+              <p className='addressNumber'>2nd Floor, The Garnet Building, KM14 <br/> Lekki Epe Expressway, Lagos, Nigeria.</p>
               </div>
 
         <div className='slogan'>
@@ -21,8 +22,8 @@ const Footer = () => {
         </div>
 
         <div className='phoneNumber'>
-          <span><img src={PhoneIcon} alt="Phone icon" /></span>
-          <p>+234 903 618 9485</p>
+          <img className='imgPhone' src={PhoneIcon} alt="Phone icon" />
+          <p className='Number'>+234 903 618 9485</p>
         </div>
         </div>
     </>

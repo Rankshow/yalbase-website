@@ -1,6 +1,5 @@
 .main{
     display: flex;
-    /* justify-content: space-between; */
     justify-content: center;
 }
 .ellipseSect {
@@ -60,13 +59,7 @@ h3 {
     font-size: 64px;
     line-height: 130%;
 }
-/* select */
-/* .selectOption {
-    padding: '16px'!important;
-    border-radius: 8px;
-    width: '298px';
-    
-} */
+/* Priority Access*/
 .content h3{
     justify-content: content;
     text-align: center;
@@ -74,8 +67,9 @@ h3 {
 }
 .content p{
 text-align: center;
-
-
+}
+.lineZigZag {
+    margin-top: -50px;
 }
 .content img {
     width: 200px;
@@ -153,3 +147,4 @@ h2 {
     height: 50px;
     border: none;
 }
+

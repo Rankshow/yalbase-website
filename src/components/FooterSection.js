@@ -28,7 +28,7 @@ function FooterSection() {
       <div className='mainSect'>
         <div className='content'>
           <h3>Priority Access</h3>
-           <img src={ZigZag} alt="ZigZag" />
+           <img className='lineZigZag' src={ZigZag} alt="ZigZag" />
           <p>Get ready to revolutionize the way you interact with your customers and drive sales with Loyalbaze. Skip the waitlist and get exclusive priority access to LoyalBaze. Limited slots available. Please tell us a bit about your business and needs and of our consultants will be in touch Immediately!</p>
         </div>
 
@@ -36,11 +36,11 @@ function FooterSection() {
           <Form className='formSect'>
             <h2>Book a Consultation with us</h2>
              <Form.Group className="mb-3 formGroup" controlId="formBasicName">
-              <Form.Control type="name" placeholder="Enter your full name" />
+              <Form.Control type="text" placeholder="Enter your full name" />
                 </Form.Group>
 
                    <Form.Group  className="mb-3 formGroup" controlId="formBasicName">
-                      <Form.Control type="email" placeholder="Enter your work email" />
+                      <Form.Control type="text" placeholder="Enter your work email" />
                         </Form.Group>
 
                          <Form.Group className="mb-3 formGroup" controlId="formBasicName">
@@ -53,9 +53,9 @@ function FooterSection() {
 
                  <Form.Select style={{padding: '16px', borderRadius: '8px', width: '298px',backgroundColor: 'rgba(29, 41, 57, 1)',border: '1px solid rgba(221, 221, 221, 0.5)', color: '#ffffff', fontFamily: 'Satoshi', fontWeight: '400', fontSize: '16px', lineHeight: '130%'}}  aria-label="Select counrty">
                   <option>Select Country</option>
-                    <option value="1">One</option>
-                       <option value="2">Two</option>
-                      <option value="3">Three</option>
+                    <option value="1">Nigeria</option>
+                       <option value="2">Ghana</option>
+                      <option value="3">Canada</option>
                     </Form.Select>
 
                     <Form.Group className="mb-3 formGroup" controlId="exampleForm.ControlTextarea1">

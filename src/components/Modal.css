@@ -1,0 +1,15 @@
+/* Popup */
+.modalBackGround {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    background: #1E1E1E;
+    position: relative;
+    width: 446px;
+    height: 475px;
+    background: #15141B;
+    border-radius: 20px;
+}

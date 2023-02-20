@@ -69,25 +69,29 @@ const Section = () => {
             Get early access
           </button>
           </div>
-          {/* Last section */}
+
+          {/* Last section circles*/}
           <div className="LastSection">
             <div>
               <img className="ellpse1" src={EllipseBlue} alt="ellipse33" />
                </div>
-                <div>
+
+                <div className="circleText">
                   <span>G</span>
                   <img className="ellpse2" src={EllipsePink} alt="ellipse33" />
                    </div>
-                   <div>
+
+                   <div className="O">
                     <span>O</span>
                      <img className="ellpse3" src={EllipseBlue} alt="ellipse33" />
                     </div>
-                    <div>
+
+                    <div className="U">
                     <span>U</span>
                     <img className="ellpse4" src={EllipsePink} alt="ellipse33" />
                    <span>M</span>
                    </div>
-                     <p>+57 joined</p>
+                     <p className="updateText">+57 joined</p>
                    </div> 
                  <div className="StarFour">
               <img src={StarFour} alt="Star four" />
