@@ -48,10 +48,10 @@
   line-height: 22px;
 }
 .NavBtn:hover {
-  background-color:#66597a;
+  background-color: #000;
 }
 .IconNav span {
   color: linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 88.1%);
-
 }
+
 

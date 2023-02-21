@@ -20,7 +20,7 @@ const Navbar = () => {
           <button onClick={() => setShowModal(true)} className='NavBtn'>Get Priority Access</button>
         </div>
       </div>
-          {showModal && <Modal />}
+          <div className='modalBlur'>{showModal && <Modal closeModal={setShowModal} />}</div>
     </>
   )
 }

@@ -60,7 +60,7 @@ const Section = () => {
             <MailOutlined className="emailIcon" />
               <input type="text" placeholder='Enter your email address' />
           </div>
-          <div className="Vector">
+          <div className="ArrowHead">
             <img src={Vector} alt="Arrow head" />
           </div>
            <div className="btnSubmit">

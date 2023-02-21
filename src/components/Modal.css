@@ -1,9 +1,9 @@
 /* Popup */
 .modalBackGround {
     display: flex;
+    margin: auto;
     flex-direction: column;
-    /* justify-content: center; */
-    justify-self: center;
+    justify-content: center;
     align-items: center;
     text-align: center;
     background: #1E1E1E;
@@ -12,4 +12,25 @@
     height: 475px;
     background: #15141B;
     border-radius: 20px;
+}
+/* Congratulations */
+.modalBody h1 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+.MarkedIcon {
+    position: absolute;
+    width: 44px;
+    height: 33.44px;
+    left: 201px;
+    top: 146px;
+}
+/* Great move! You're one step closer to getting your hands on the product. Please check your mail for more information. */
+.modalBody {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.9);
 }

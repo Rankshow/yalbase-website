@@ -2,5 +2,11 @@
 body{
   background-color: rgb(18,27,39);
   font-family: satoshi;
+}
 
+@media screen and (min-width: 360px) and (max-width:1439px) { 
+   body{
+    display: flex;
+    flex-direction: column;
+  }
 }
